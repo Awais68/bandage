@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link"; 
+import Link from "next/link";
 import user from "@/images/Vector (12).png";
 import search from "@/images/icn settings icn-xs (6).png";
 import cart from "@/images/icn settings icn-xs (7).png";
@@ -21,12 +21,27 @@ export default function Navbar() {
 
         {/* Menu Links */}
         <ul className="flex space-x-6 font-Montserrat text-sm text-gray-600">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/shop">Shop</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/blog">Blog</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
-          <li><Link href="/pages">Pages</Link></li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/shop">Shop</Link>
+          </li>
+          <li>
+            <Link href="/product">Products</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link href="/pages">Pages</Link>
+          </li>
         </ul>
 
         {/* Icons Section */}
@@ -68,15 +83,33 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="bg-[#bebebe] text-white flex flex-col items-center py-4 space-y-3">
           <ul className="space-y-2 font-Montserrat text-base text-black">
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/shop">Shop</Link></li>
-            <li><Link href="/about">About</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/pages">Pages</Link></li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/shop">Shop</Link>
+            </li>
+            <li>
+              <Link href="/product">Products</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link href="/pages">Pages</Link>
+            </li>
           </ul>
-          <button onClick={toggleMenu} className="text-sm text-black font-Montserrat">
-           - Close Menu -
+          <button
+            onClick={toggleMenu}
+            className="text-sm text-black font-Montserrat"
+          >
+            - Close Menu -
           </button>
         </div>
       )}
