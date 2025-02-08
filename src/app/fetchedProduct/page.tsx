@@ -3,9 +3,6 @@ import CartManager from "../components/cartManager";
 import ProductGrid from "../components/productGrid";
 import Product from "../product/page";
 
-
-
-
 export default function FetchedProducts() {
   return (
     <div>
@@ -16,8 +13,8 @@ export default function FetchedProducts() {
 
 
 
-      <Product />
-      <ProductGrid products={product} />
+      {/* <Product />
+      <ProductGrid products={product} /> */}
     </div>
   );
 }
