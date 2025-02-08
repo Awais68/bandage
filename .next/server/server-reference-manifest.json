@@ -1,0 +1,54 @@
+{
+  "node": {
+    "7f7f759da8f69bbda12187abc8adce84b48c421888": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/product/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f2edb284b2ee1a9700ae11ea1e945cc403d6bbcc3%22%2C%22revalidateSyncTags%22%5D%2C%5B%227f431405e804066f4cca1f0e3523fa23021e331715%22%2C%22setPerspectiveCookie%22%5D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/shop/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/products/[slug]/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/product/page": "action-browser",
+        "app/shop/page": "action-browser",
+        "app/products/[slug]/page": "action-browser"
+      }
+    },
+    "7f2edb284b2ee1a9700ae11ea1e945cc403d6bbcc3": {
+      "workers": {
+        "app/product/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f2edb284b2ee1a9700ae11ea1e945cc403d6bbcc3%22%2C%22revalidateSyncTags%22%5D%2C%5B%227f431405e804066f4cca1f0e3523fa23021e331715%22%2C%22setPerspectiveCookie%22%5D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/product/page": "action-browser"
+      }
+    },
+    "7f431405e804066f4cca1f0e3523fa23021e331715": {
+      "workers": {
+        "app/product/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5C%40sanity%5C%5Cnext-loader%5C%5Cdist%5C%5Cserver-actions.js%22%2C%5B%5B%227f2edb284b2ee1a9700ae11ea1e945cc403d6bbcc3%22%2C%22revalidateSyncTags%22%5D%2C%5B%227f431405e804066f4cca1f0e3523fa23021e331715%22%2C%22setPerspectiveCookie%22%5D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAwais%5C%5CDownloads%5C%5CCompressed%5C%5Cbandage-main%5C%5Cbandage-main%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%5B%227f7f759da8f69bbda12187abc8adce84b48c421888%22%2C%22revalidateRootLayout%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/product/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "jh8M/CU7PdVJ4ywD6GzZ3QLRw3Sof3n0AwdJyBjZc6I="
+}
